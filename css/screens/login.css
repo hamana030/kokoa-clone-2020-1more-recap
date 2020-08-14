@@ -1,0 +1,77 @@
+.index {
+  height: 100vh;
+}
+
+.welcom-header {
+  padding: 65px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcom-header__title {
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.welcom-header__sub {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.login-form {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__input-text {
+  border: none;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+}
+
+.login-form__input-text:focus {
+  border-bottom: #fae100 solid 1px;
+}
+
+.login-form__input-text::placeholder {
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.login-form__login {
+  border: none;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.login-form input:hover:nth-child(3) {
+  background-color: #fae100;
+}
+
+.login-form__sign-up {
+  border: none;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-size: 13px;
+}
+
+.login-form__sign-up:hover {
+  background-color: #fae100;
+}
+
+.login-form__find-password {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}

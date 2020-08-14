@@ -1,0 +1,35 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 3px;
+  background-color: white;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+}
+
+.status-bar:last-child {
+  padding-right: 15px;
+}
+
+.status-bar__column span {
+  font-size: smaller;
+}
+
+.fa-wifi {
+  padding-left: 3px;
+}
+
+.fa-lock {
+  padding-right: 5px;
+  position: relative;
+  bottom: 1px;
+}
+
+.fa-bolt {
+  padding-right: 3px;
+  position: relative;
+  bottom: 2px;
+}
