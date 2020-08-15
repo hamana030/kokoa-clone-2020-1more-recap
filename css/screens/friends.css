@@ -1,3 +1,50 @@
-.friends {
-  height: 150vh;
+.friends-vh {
+  height: 110vh;
+}
+
+.screen-header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  top: 20px;
+  background-color: white;
+}
+
+.screen-header__column:first-child {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.screen-header__column i {
+  padding-left: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 70px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fafafa;
+  padding: 10px 0;
+}
+
+.info-row .fa-info-circle {
+  opacity: 0.2;
+  padding-right: 5px;
+}
+
+.info-row span {
+  font-size: small;
+}
+
+.info-row .fa-angle-right {
+  opacity: 0.2;
+  padding-left: 10px;
 }

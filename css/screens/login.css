@@ -1,4 +1,4 @@
-.index {
+.index-vh {
   height: 100vh;
 }
 
@@ -53,7 +53,8 @@
   cursor: pointer;
 }
 
-.login-form input:hover:nth-child(3) {
+.login-form input:hover:nth-child(3),
+.login-form input:focus:nth-child(3) {
   background-color: #fae100;
 }
 
@@ -66,7 +67,8 @@
   font-size: 13px;
 }
 
-.login-form__sign-up:hover {
+.login-form__sign-up:hover,
+.login-form__sign-up:focus {
   background-color: #fae100;
 }
 
