@@ -14,22 +14,34 @@
   padding-right: 15px;
 }
 
+.status-bar__column {
+  display: flex;
+  align-items: center;
+  width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+  justify-content: center;
+}
+
+.status-bar__column:nth-child(3) {
+  justify-content: flex-end;
+}
+
 .status-bar__column span {
   font-size: smaller;
 }
 
-.fa-wifi {
+.status-bar__column:nth-child(3) span {
+  padding-right: 3px;
+}
+
+.fa-wifi,
+.fa-battery-full,
+.fa-bolt {
   padding-left: 3px;
 }
 
 .fa-lock {
-  padding-right: 5px;
-  position: relative;
-  bottom: 1px;
-}
-
-.fa-bolt {
-  padding-right: 3px;
-  position: relative;
-  bottom: 2px;
+  padding-right: 7px;
 }

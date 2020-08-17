@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 @import "reset.css";
+@import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
@@ -14,5 +15,5 @@ body {
 }
 
 .main-margin {
-  margin: 105px 15px 0px 15px;
+  margin: 0px 15px;
 }

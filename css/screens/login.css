@@ -33,10 +33,11 @@
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
+  transition: border-color 0.3s ease-in-out;
 }
 
 .login-form__input-text:focus {
-  border-bottom: #fae100 solid 1px;
+  border-bottom: var(--yellow) solid 1px;
 }
 
 .login-form__input-text::placeholder {
@@ -44,32 +45,30 @@
   font-size: 15px;
 }
 
-.login-form__login {
-  border: none;
-  padding: 15px 0;
-  margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.05);
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.login-form input:hover:nth-child(3),
-.login-form input:focus:nth-child(3) {
-  background-color: #fae100;
-}
-
+.login-form__login,
 .login-form__sign-up {
   border: none;
   padding: 15px 0;
   margin-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.05);
-  text-align: center;
   font-size: 13px;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 5px;
 }
 
+.login-form__login:hover,
+.login-form__login:focus,
 .login-form__sign-up:hover,
 .login-form__sign-up:focus {
-  background-color: #fae100;
+  background-color: var(--yellow);
+}
+
+.login-form__login {
+  cursor: pointer;
+}
+
+.login-form__sign-up {
+  text-align: center;
 }
 
 .login-form__find-password {
